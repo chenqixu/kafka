@@ -26,8 +26,10 @@ buildscript {
     // For Apache Rat plugin to ignore non-Git files
     classpath "org.ajoberstar:grgit:1.9.3"
     classpath 'com.github.ben-manes:gradle-versions-plugin:0.15.0'
-    classpath 'org.scoverage:gradle-scoverage:2.1.0'
+    //classpath 'org.scoverage:gradle-scoverage:2.1.0'
+    classpath 'org.scoverage:gradle-scoverage:3.1.5'
     classpath 'com.github.jengelman.gradle.plugins:shadow:2.0.1'
+    //classpath 'org.scoverage:scalac-scoverage-plugin_2.11:1.3.1'
   }
 }
 
